@@ -16,7 +16,7 @@
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+  Projeto by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2023-2-NADS1/Grupo6/tree/main">Matheus Moura da Silva e Murilo Dias da Silva</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
 </p>
 
 
@@ -31,7 +31,9 @@ Atender ao objetivo 12.2 da ODS 12- consumo e produção resposável)  Até 2030
 Com todos os nossos objetivos definidos, podemos partir para a montagem do nosso projeto, onde vamos captar a água da chuva e realizar o tratamento dessa água e disponibilizar para a população para a lavagem de carros ou qualquer outro serviços que o individuo precisar utilizar, ou seja o nosso projjeto conssite em três fases, conforme abaixo:
 <br><br>
 1° Captação da água para um reservatório.
+<br><br>
 2° Estação de tratamento da água.
+<br><br>
 3° Disponibilização da água tratada
 
 <br><br>
@@ -93,7 +95,6 @@ Não há instalação!
 Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
 ## 💻 Configuração para Desenvolvimento
-
 <br><br>
 No nosso projeto utilizamos os seguintes elementos de comunicação para conseguirmos realizar as leituras de dados e fazer com que o projeto cumpra com o objetico que nos o desenvolvemos.
 <br><br>
@@ -105,10 +106,12 @@ Sensor de Ph: Com este sensor podemos verificar o indice de Ph da água.
 <br><br>
 Sensor de Nivel: Uma boia para podermos verificar o nivel de água de cada estação.
 <br><br>
-Bomba de Agua: Utilizado para fazer com que a agua seja 
-
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
+Bomba de Agua: Utilizado para fazer com que a agua seja trasportada entre as estações.
+<br><br>
+Filtro de Agua: Para que o tratamento seja realizado.
+<br><br>
+Com o todos os os sensores devidamente ligados utilizamos o Arduino e Esp32 para podermos gerenciar os dados e controlar cada sensor para que o projeto realize o seu objetivo com sucesso. 
+<br><br>
 Para abrir este projeto você necessita das seguintes ferramentas:
 
 -<a href="https://godotengine.org/download">GODOT</a>
