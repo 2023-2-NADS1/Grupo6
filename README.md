@@ -4,13 +4,13 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# AquaCicle
 
-## Nome do Grupo
+## Alvacoders
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+## Integrantes: <a href="https://www.linkedin.com/in/matheus-moura-77b7a213a/">Matheus Moura</a>, <a href="https://www.linkedin.com/in/victorbarq/">Murilo Dias</a>, 
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/"> Victor Bruno </a>, <a href="https://www.linkedin.com/in/victorbarq/">Adriano Felix Valente</a>, 
 
 ## Descrição
 
@@ -20,9 +20,9 @@
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+O objetivo do nosso grupo é desenvolver um projeto que tenha um impacto direto nas Objetivos de desenvolvimento Sustentável da Organização das Nações Unidas (ONU), com a ajuda da Internet das coisas, com isso desenvolvemos um projeto em que visa realizar o tratamento da água de reuso das chuvas para uso da população.
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+Já que nosso projeto deveria fazer sentido com as Ods da ONU, a primeira coisa após termos 
 <br><br>
 May the force be with you!
 <br><br>
