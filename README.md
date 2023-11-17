@@ -28,10 +28,12 @@ Atender ao objetivo 6.3 da ODS 6- Agua potável e saneamento: Reduzindo à metad
 <br><br>
 Atender ao objetivo 12.2 da ODS 12- consumo e produção resposável)  Até 2030, alcançar a gestão sustentável e o uso eficiente dos recursos naturais (ONU).
 <br><br>
-Com todos os nossos objetivos definidos, podemos partir para a montagem do nosso projeto, onde vamos captar a água da chuva e realizar o tratamento dessa água e disponibilizar para a população para a lavagem de carros ou qualquer outro serviços que o individuo precisar utilizar, ou seja o nosso projjeto conssite em três fases, conforme abaixo.
+Com todos os nossos objetivos definidos, podemos partir para a montagem do nosso projeto, onde vamos captar a água da chuva e realizar o tratamento dessa água e disponibilizar para a população para a lavagem de carros ou qualquer outro serviços que o individuo precisar utilizar, ou seja o nosso projjeto conssite em três fases, conforme abaixo:
 <br><br>
+1° Captação da água para um reservatório.
+2° Estação de tratamento da água.
+3° Disponibilização da água tratada
 
-May the force be with you!
 <br><br>
 
 ## 🛠 Estrutura de pastas
@@ -92,6 +94,19 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 
 ## 💻 Configuração para Desenvolvimento
 
+<br><br>
+No nosso projeto utilizamos os seguintes elementos de comunicação para conseguirmos realizar as leituras de dados e fazer com que o projeto cumpra com o objetico que nos o desenvolvemos.
+<br><br>
+Os 4 sensores controlados e 1 filtro de agua controlados por IOT estão listados abaixo:
+<br><br>
+Sensor de Turbidez: Com este sensor podemos verificar a Turbidez da agua captada ou seja a transparencia da agua.
+<br><br>
+Sensor de Ph: Com este sensor podemos verificar o indice de Ph da água.
+<br><br>
+Sensor de Nivel: Uma boia para podermos verificar o nivel de água de cada estação.
+<br><br>
+Bomba de Agua: Utilizado para fazer com que a agua seja 
+
 Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
 
 Para abrir este projeto você necessita das seguintes ferramentas:
@@ -122,7 +137,7 @@ A cada atualização os detalhes devem ser lançados aqui.
     * Trabalho em andamento
 
 ## 📋 Licença/License
-© algarismo por está licenciada sob Atribuição 4.0 Internacional 
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2023-2-NADS1/Grupo6/tree/main">AquaCicle</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2023-2-NADS1/Grupo6/tree/main">Matheus Moura da Silva e Murilo Dias da Silva</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p> 
 
 ## 🎓 Referências
 
