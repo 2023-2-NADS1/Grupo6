@@ -115,7 +115,7 @@ A cada atualização os detalhes devem ser lançados aqui.
     * Trabalho em andamento
 
 ## 📋 Licença/License
-
+© algarismo por está licenciada sob Atribuição 4.0 Internacional 
 
 ## 🎓 Referências
 
