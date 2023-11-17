@@ -22,8 +22,15 @@
 
 O objetivo do nosso grupo é desenvolver um projeto que tenha um impacto direto nas Objetivos de desenvolvimento Sustentável da Organização das Nações Unidas (ONU), com a ajuda da Internet das coisas, com isso desenvolvemos um projeto em que visa realizar o tratamento da água de reuso das chuvas para uso da população.
 <br><br>
-Já que nosso projeto deveria fazer sentido com as Ods da ONU, a primeira coisa após termos 
+Já que nosso projeto deveria fazer sentido com as Ods da ONU, a primeira coisa após termos decidido qual seria o o projeto, fomos então indentificar em qual Objetivos de desenvolvimento Sustentável o nosso projeto se enquadrava sendo dois objetivos, conforme abaixo:
 <br><br>
+Atender ao objetivo 6.3 da ODS 6- Agua potável e saneamento: Reduzindo à metade a proporção de águas residuais não tratadas e aumentando substancialmente a reciclagem e reutilização segura globalmente (ONU)
+<br><br>
+Atender ao objetivo 12.2 da ODS 12- consumo e produção resposável)  Até 2030, alcançar a gestão sustentável e o uso eficiente dos recursos naturais (ONU).
+<br><br>
+Com todos os nossos objetivos definidos, podemos partir para a montagem do nosso projeto, onde vamos captar a água da chuva e realizar o tratamento dessa água e disponibilizar para a população para a lavagem de carros ou qualquer outro serviços que o individuo precisar utilizar, ou seja o nosso projjeto conssite em três fases, conforme abaixo.
+<br><br>
+
 May the force be with you!
 <br><br>
 
