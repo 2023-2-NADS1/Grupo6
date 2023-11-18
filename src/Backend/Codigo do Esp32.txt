@@ -1,0 +1,36 @@
+#include <WiFi.h>
+#include <ESPAsyncWebSrv.h>
+
+#define RX0 40
+#define TX0 41
+
+// Configuração da rede Wi-Fi
+const char *ssid = "sua-rede-wifi";
+const char *password = "sua-senha-wifi";
+
+// Crie uma instância do servidor web
+AsyncWebServer server(80);
+
+  // Rotas do servidor web
+  server.on("/", HTTP_GET, [](AsyncWebServerRequest *request) {
+    String html = "<html><body>";
+    html += "<h1>Sistema de Controle</h1>";
+    html += "<p>pH: " + String(readPH()) + "</p>";
+    html += "<p>Turbidez: " + String(leitura) + "</p>";
+    html += "</body></html>";
+    request->send(200, "text/html", html);
+  });
+
+  // Inicia o servidor web
+  server.begin();
+
+  
+void setup() {
+  //leitura dos sensores
+  Serial.begin(115200);
+  Serial2.begin(9600, SERIAL_8N1, RX0, TX0);
+}
+void loop() {
+    Serial.println("Message Received: ");
+    Serial.println(Serial2.readString());
+}
