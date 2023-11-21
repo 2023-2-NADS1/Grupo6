@@ -112,15 +112,6 @@ Filtro de Agua: Para que o tratamento seja realizado.
 <br><br>
 Com o todos os os sensores devidamente ligados utilizamos o Arduino e Esp32 para podermos gerenciar os dados e controlar cada sensor para que o projeto realize o seu objetivo com sucesso. 
 <br><br>
-Para abrir este projeto você necessita das seguintes ferramentas:
-
--<a href="https://godotengine.org/download">GODOT</a>
-
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
 
 ## 🗃 Histórico de lançamentos
 
