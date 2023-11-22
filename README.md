@@ -52,42 +52,9 @@ Com todos os nossos objetivos definidos, podemos partir para a montagem do nosso
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
 |readme.md<br>
 
-A pasta raiz contem dois arquivos que devem ser alterados:
-
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
-
-Há também 4 pastas que seguem da seguinte forma:
-
-<b>documentos</b>: Toda a documentação estará nesta pasta.
-
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
-
-<b>imagens</b>: Imagens do sistema
-
-<b>src</b>: Pasta que contém o código fonte.
-
 ## 🛠 Instalação
-
-<b>Android:</b>
-
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>Windows:</b>
-
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
 
 <b>HTML:</b>
 
@@ -117,18 +84,21 @@ Com o todos os os sensores devidamente ligados utilizamos o Arduino e Esp32 para
 
 A cada atualização os detalhes devem ser lançados aqui.
 
-* 0.2.1 - 25/01/2022
-    * MUDANÇA: Atualização de docs (código do módulo permanece inalterado)
-* 0.2.0 - 15/01/2022
-    * MUDANÇA: Remove `setDefaultXYZ()`
-    * ADD: Adiciona `init()`
-* 0.1.1 - 11/01/2022
-    * CONSERTADO: Crash quando chama `baz()` (Obrigado @NomeDoContribuidorGeneroso!)
-* 0.1.0 - 10/01/2022
-    * O primeiro lançamento adequado
-    * MUDANÇA: Renomeia `foo()` para `bar()`
-* 0.0.1 - 01/01/2022
-    * Trabalho em andamento
+* 0.2.2 - 21/11/2023
+    * Montamos a versão atual do projeto.
+    * MUDANÇA: Fizmos a alteração do sensores de ph e turbidez para o esp32, para não termos interferencia nos dados coletados.
+* 0.2.1 - 17/11/2023
+    * MUDANÇA: Montamos uma base de mfd para colocarmos o projeto e alocarmos os cabos, fonte, arduino e esp32.
+* 0.2.0 - 10/11/2022
+    * MUDANÇA: Compramos um filtro de carvão para a estção de tratmento e o mdf para fazermos a base do projeto.
+    * ADD:Colocamos um eps32 para fazemos que ele recebece-se o dados do arduino e nos mostra-se o valor do  ph e turbidez.
+* 0.1.1 - 01/11/2023
+    * CONSERTADO: Compramos reles, para que as bombas liguem e desliguem quando necessário conforme programamos no arduino.
+* 0.1.0 - 27/10/2023
+    * Realizamos o primeiro prototipo com todos os sensores e bombas
+    * MUDANÇA: Precisamos encontrar uma forma de como parar as bombas que estão ativadas o tempo todo.
+* 0.0.1 - 19/10/2023
+    * Indentificamso os sensores e como iriamos montar o projeto.
 
 ## 📋 Licença/License
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2023-2-NADS1/Grupo6/tree/main">AquaCicle</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2023-2-NADS1/Grupo6/tree/main">Matheus Moura da Silva e Murilo Dias da Silva</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p> 
@@ -137,8 +107,5 @@ A cada atualização os detalhes devem ser lançados aqui.
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+1. [<https://github.com/iuricode/readme-template>](https://www.youtube.com/watch?v=1gSO4jCAuIk)
+2. [<https://github.com/gabrieldejesus/readme-model>](https://repositorio.uniceub.br/jspui/bitstream/235/5934/1/21063094.pdf)
