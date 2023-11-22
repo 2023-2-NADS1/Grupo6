@@ -4,38 +4,13 @@
 #define pinRele1 3 // rele bomba 1
 #define pinRele2 4 // rele bomba 2
 #define pinRele3 5 // rele bomba 3
-#define pinPH A0  //sensor de ph
-/////////////////////////////////////////////
- unsigned long int avgValue;  //Armazene o valor médio do feedback do sensor //ph
-float b;
-int buf[10],temp; //ph
 
-/////////////////////////////////////////////
-//turbidez
-
-int sensorPin = A2; // Atribui a porta A2 a variavel sensorPin
-int leitura; //Variável responsável por guardar o valor da leitura analógica do sensor */
-//////////////////////////////////////////////
 
 bool estadoTanque = HIGH;
 bool estadoFilt = HIGH;
 bool estadoReserv = HIGH;
 
 void setup() {
-
- Serial.begin(9600); //Inicializa a comunicação serial//turbidez
-  ///////////////////////////////////////////////////
-
-  pinMode(pinSensorTanque, INPUT_PULLUP); //primeira boia
-  pinMode(pinSensorFilt, INPUT_PULLUP); //segunda boia
-  pinMode(pinSensorReserv, INPUT_PULLUP); //terceira boia
-  pinMode(pinRele1, OUTPUT);
-  pinMode(pinRele2, OUTPUT); 
-  pinMode(pinRele3, OUTPUT);
-
-  pinMode(10,OUTPUT);  //ph
-  Serial.begin(9600);  
-  Serial.println("Ready");    //Teste o monitor serial //ph */
 }
 
 void loop() {
@@ -63,62 +38,5 @@ void loop() {
     digitalWrite(pinRele3, LOW); //boias e bombas
   }
  
-
- //logica do sensor de ph
-   for(int i=0;i<10;i++)       //Obtenha 10 valores de amostra do sensor para suavizar o valor
-  { 
-    buf[i]=analogRead(pinPH);
-    delay(10);
-  }
-  for(int i=0;i<9;i++)        //classificar o analógico de pequeno para grande
-  {
-    for(int j=i+1;j<10;j++)
-    {
-      if(buf[i]>buf[j])
-      {
-        temp=buf[i];
-        buf[i]=buf[j];
-        buf[j]=temp;
-      }
-    }
-  }
-  avgValue=0;
-  for(int i=2;i<8;i++)                      //pegue o valor médio de 6 amostras de centro
-    avgValue+=buf[i];
-  float phValue=(float)avgValue*5.0/1024/6; //converter o analógico em milivolt
-  phValue=3.5*phValue;                      //converter o milivolt em valor de pH
-  Serial.print("    pH:");  
-  Serial.print(phValue,2);
-  Serial.println(" ");
-  digitalWrite(13, HIGH);       
-  delay(800);
-  digitalWrite(13, LOW); //ph */
-
-
-  ////////////////////////////////////////////////
-  //turbidez
-
-   leitura = analogRead(sensorPin); //Realiza a leitura analógica do sensor
-  Serial.print("Valor lido: "); //Imprime no monitor serial
-  Serial.println(leitura); // manda o valor de leitura para o monitor serial
-  delay(500); //Intervalo de 0,5 segundos entre as leituras
-  Serial.print("Estado da água: "); //Imprime no monitor serial
-
-  if (leitura > 700) { //Se o valor de leitura analógica estiver acima de 700
-
-    Serial.println("LIMPA"); //Imprime no monitor serial que a água está limpa
-  }
-  if ((leitura > 600) && (leitura <= 700)) { //Se o valor de leitura analógica estiver entre 600 e 700
-
-    Serial.println("UM POUCO SUJA"); //Imprime no monitor serial que a água está um pouco suja
-  }
-  if (leitura < 600) { //Se o valor de leitura analógica estiver abaixo de 600 
-
-    Serial.println("MUITO SUJA"); //Imprime no monitor serial que a água está um pouco suja
-  }
-  Serial.println(); 
-  
-
-         
   
 }
