@@ -39,7 +39,7 @@ Com todos os nossos objetivos definidos, podemos partir para a montagem do nosso
 <br><br>
 
 ## 🛠 Estrutura de pastas
-
+<br><br>
 -Raiz<br>
 |<br>
 |-->documentos<br>
@@ -53,14 +53,17 @@ Com todos os nossos objetivos definidos, podemos partir para a montagem do nosso
 |-->src<br>
   &emsp;|-->Backend<br>
 |readme.md<br>
+<br><br>
 
 ## 🛠 Instalação
 
+<br><br>
 <b>HTML:</b>
 
 Não há instalação!
 Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
+<br><br>
 ## 💻 Configuração para Desenvolvimento
 <br><br>
 No nosso projeto utilizamos os seguintes elementos de comunicação para conseguirmos realizar as leituras de dados e fazer com que o projeto cumpra com o objetico que nos o desenvolvemos.
@@ -81,6 +84,7 @@ Com o todos os os sensores devidamente ligados utilizamos o Arduino e Esp32 para
 <br><br>
 
 ## 🗃 Histórico de lançamentos
+<br><br>
 
 A cada atualização os detalhes devem ser lançados aqui.
 
@@ -99,8 +103,9 @@ A cada atualização os detalhes devem ser lançados aqui.
     * MUDANÇA: Precisamos encontrar uma forma de como parar as bombas que estão ativadas o tempo todo.
 * 0.0.1 - 19/10/2023
     * Indentificamso os sensores e como iriamos montar o projeto.
-
+<br><br>
 ## 📋 Licença/License
+
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2023-2-NADS1/Grupo6/tree/main">AquaCicle</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2023-2-NADS1/Grupo6/tree/main">Matheus Moura da Silva e Murilo Dias da Silva</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p> 
 
 ## 🎓 Referências
