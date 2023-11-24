@@ -64,6 +64,10 @@ Abaixo na configurção para desenvolvimento está os componentes que utilizamos
 <br><br>
 ## 💻 Configuração para Desenvolvimento
 <br><br>
+<p align="center">
+<img src="imagens/PROJETO.jpeg" alt="NOME DO JOGO" border="0">
+<br><br>
+
 No nosso projeto utilizamos os seguintes elementos de comunicação para conseguirmos realizar as leituras de dados e fazer com que o projeto cumpra com o objetico que nos o desenvolvemos.
 <br><br>
 Os 4 sensores controlados e 1 filtro de agua controlados por IOT estão listados abaixo:
