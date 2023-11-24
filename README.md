@@ -43,8 +43,6 @@ Com todos os nossos objetivos definidos, podemos partir para a montagem do nosso
 ## 🛠 Instalação
 
 <br><br>
-<b>HTML:</b>
-<br><br>
 Nesta etapa vamos demosntrar como fazer a programação no do código para o arduino e esp32 para que esta localizado na pasta src.
 
 1° Baixar a IDLE do Arduino para fazer o código e realizar o upload para o arduino e esp32.
