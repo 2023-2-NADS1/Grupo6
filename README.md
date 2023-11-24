@@ -10,7 +10,8 @@
 
 ## Integrantes: <a href="https://www.linkedin.com/in/matheus-moura-77b7a213a/">Matheus Moura</a>, <a href="https://www.linkedin.com/in/victorbarq/">Murilo Dias</a>, 
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/"> Victor Bruno </a>, <a href="https://www.linkedin.com/in/victorbarq/">Adriano Felix Valente</a>, 
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/"> Victor Bruno </a>, <a href="https://www.linkedin.com/in/victorbarq/">Adriano Felix Valente</a>, <a href="https://www.linkedin.com/in/victorbarq/"> Jose Carlos </a> 
+
 
 ## Descrição
 
@@ -20,9 +21,10 @@
 </p>
 
 
-O objetivo do nosso grupo é desenvolver um projeto que tenha um impacto direto nas Objetivos de desenvolvimento Sustentável da Organização das Nações Unidas (ONU), com a ajuda da Internet das coisas, com isso desenvolvemos um projeto em que visa realizar o tratamento da água de reuso das chuvas para uso da população.
+O objetivo do nosso grupo é desenvolver um projeto que tenha um impacto direto nas <a href="https://brasil.un.org/pt-br/sdgs">Objetivos de desenvolvimento Sustentável da Organização das Nações Unidas(ONU)<a/>, com a ajuda da Internet das coisas.
+Com isso desenvolvemos um projeto em que visa realizar o tratamento da água de reuso das chuvas para uso da população.
 <br><br>
-Já que nosso projeto deveria fazer sentido com as Ods da ONU, a primeira coisa após termos decidido qual seria o o projeto, fomos então indentificar em qual Objetivos de desenvolvimento Sustentável o nosso projeto se enquadrava sendo dois objetivos, conforme abaixo:
+Já que nosso projeto deveria fazer sentido com os Objetivos de Desenvolvimento Sustentavél da ONU, a primeira coisa após termos decidido qual seria o o projeto, fomos então indentificar em qual Objetivos de desenvolvimento Sustentável o nosso projeto se enquadrava sendo dois objetivos, conforme abaixo:
 <br><br>
 Atender ao objetivo 6.3 da ODS 6- Agua potável e saneamento: Reduzindo à metade a proporção de águas residuais não tratadas e aumentando substancialmente a reciclagem e reutilização segura globalmente (ONU)
 <br><br>
@@ -38,29 +40,18 @@ Com todos os nossos objetivos definidos, podemos partir para a montagem do nosso
 
 <br><br>
 
-## 🛠 Estrutura de pastas
-<br><br>
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-|readme.md<br>
-<br><br>
-
 ## 🛠 Instalação
 
 <br><br>
 <b>HTML:</b>
+<br><br>
+Nesta etapa vamos demosntrar como fazer a programação no do código para o arduino e esp32 para que esta localizado na pasta src.
 
-Não há instalação!
+1° Baixar a IDLE do Arduino para fazer o código e realizar o upload para o arduino e esp32.
+<br><br>
+2° Indentificar qual o tipo de arduino e esp32 que você esta utilizando e baixe as bibliotecas caso necessário, nós utilizamos o Arduino UNO e o Esp Dev Module.
+3° 
+
 Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
 <br><br>
