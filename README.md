@@ -49,10 +49,17 @@ Nesta etapa vamos demosntrar como fazer a programação no do código para o ard
 
 1° Baixar a IDLE do Arduino para fazer o código e realizar o upload para o arduino e esp32.
 <br><br>
-2° Indentificar qual o tipo de arduino e esp32 que você esta utilizando e baixe as bibliotecas caso necessário, nós utilizamos o Arduino UNO e o Esp Dev Module.
-3° 
+2° Indentificar qual o tipo de arduino e esp32 que você esta utilizando e baixe as bibliotecas caso necessário, nós utilizamos o Arduino UNO e o Esp32.
+<br><br>
+3° Separamos os componentes do nosso projeto entre o arduino e esp321 para não termos divergencias nos dados coletados pelo esp32.
+<br><br>
+4° Desenvolvemos o codigo para o arduino para o gerenciamento das bombas.
+<br><br>
+5° Desenvolvemos o codigo para o eps32 para o gerenciamento das bombas.
+<br><br>
 
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+Abaixo na configurção para desenvolvimento está os componentes que utilizamos para a montagem do nosso projeto.
+
 
 <br><br>
 ## 💻 Configuração para Desenvolvimento
